@@ -18,12 +18,12 @@
 
 ## Renting Procedures
 - [ ] Check that a rental is processed as one bulk transaction.
-- [ ] Confirm that rentals can include multiple pieces of equipment.
-- [ ] Verify that only available equipment can be added to a rental.
+- [x] Confirm that rentals can include multiple pieces of equipment.
+- [x] Verify that only available equipment can be added to a rental.
 - [ ] Check that the rental rate is charged daily.
 - [ ] Ensure the default rental period is one day, with adjustments allowed during return.
 - [ ] Verify that the default payment type is a credit card.
-- [ ] Confirm that the rental date for taking the equipment is the current date and time.
+- [x] Confirm that the rental date for taking the equipment is the current date and time.
 
 ## Returns Processing
 - [ ] Ensure equipment is marked available only if returned in clean working order.
@@ -45,12 +45,12 @@
 - [ ] Confirm that the `RentalDetailView` includes all details for each rental item.
 
 ### Methods
-- [ ] Verify the `GetCustomerByPhone` method retrieves the correct customer information.
-- [ ] Check that the `GetEquipments` method lists all available equipment for rent.
-- [ ] Confirm the `GetCoupon` method accurately retrieves the correct discount value.
+- [x] Verify the `GetCustomerByPhone` method retrieves the correct customer information.
+- [x] Check that the `GetEquipments` method lists all available equipment for rent.
+- [x] Confirm the `GetCoupon` method accurately retrieves the correct discount value.
 - [ ] Ensure the `Rent` method processes the rental accurately.
-- [ ] Check the `GetRentalByRentalNumber` method retrieves the correct rental information.
-- [ ] Verify the `GetRentalByPhone` method lists all rentals associated with a phone number.
-- [ ] Confirm the `SelectRentalByCustomer` method provides a list of rentals for a customer.
+- [x] Check the `GetRentalByRentalNumber` method retrieves the correct rental information.
+- [x] Verify the `GetRentalByPhone` method lists all rentals associated with a phone number.
+- [x] Confirm the `SelectRentalByCustomer` method provides a list of rentals for a customer.
 - [ ] Ensure the `Return` method correctly processes the return of rental items.
 
